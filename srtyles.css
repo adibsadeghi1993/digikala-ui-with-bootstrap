@@ -1,21 +1,39 @@
 *{
-    padding: 0;
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
 @font-face {
-    font-family: "ykan";
-    src: url("./fonts/ykan/IRANYekanMedium.ttf");
+    font-family:"ykan" ;
+    src: url("./fonts/ykan/IRANYekanRegular.ttf");
 }
 
 body{
     font-family: "ykan";
 }
+
 .logo{
     width: 70px;
 }
-
 .offcanvas-start{
     width: 250px;
+}
+input::placeholder{
+font-size: 0.75rem;
+}
+.input{
+    padding-right: 35px;
+    background-color: #f0f0f1;
+    height: 32px;
+}
+.serach{
+    top: 9px;
+    right: 5px;
+}
+.sgin-in{
+    font-size: 0.75rem;
+}
+.choose-city{
+    font-size: 0.7rem; 
 }

@@ -1,4 +1,5 @@
 <html lang="en" dir="rtl">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,34 +9,61 @@
     <link rel="stylesheet" href="./css/bootstrap.rtl.min.css">
     <link rel="stylesheet" href="./srtyles.css">
 </head>
+
 <body>
 
     <header>
-        <section class="d-flex flex-column flex-md-row">
-            <div class="d-flex  justify-content-between w-100 mx-2 py-2 border-bottom">
-                <button class="bg-transparent border-0"" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+        <section>
+            <div class="d-flex justify-content-between py-2 mx-2 border-bottom">
+                <button class="border-0 bg-transparent" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
                     <i class="bi bi-list"></i>
-                  </button>
-                <img src="./images/digicala.svg" class="logo"/>
-                <span><i class="bi bi-question-square"></i></span>
-            </div>
-            <div></div>
+                </button>
 
-            <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
-                <div class="offcanvas-header">
-                  <h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
-                  <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                <img src="./images/digicala.svg" class="logo" />
+                <span><i class="bi bi-question-square"></i></span>
+                <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample"
+                    aria-labelledby="offcanvasExampleLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
+                        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        body
+                    </div>
                 </div>
-                <div class="offcanvas-body">
-                  body
+            </div>
+            <div class="p-2 d-flex align-items-center border-bottom">
+                <div class="position-relative flex-grow-1 ">
+                    <span class="serach position-absolute"><i class="bi bi-search"></i></span>
+                    <input type="text" placeholder="جستجو در دیجی کالا" class="input border-0 rounded w-100" />
+
                 </div>
-              </div>
+                <div class="d-flex ms-3 align-items-center">
+                    <div class="d-flex align-items-center me-2">
+                        <span><i class="bi bi-box-arrow-in-left"></i></span>
+                        <p class="mb-1 ms-1 sgin-in">ورود</p>
+                    </div>
+                    <div class="ps-2 border-start">
+                        <i class="bi bi-cart"></i>
+                    </div>
+                </div>
+            </div>
         </section>
-        <div></div>
+
+        <div class="d-flex p-2 border-bottom">
+            <div class="flex-grow-1 d-flex align-items-center">
+                <span><i class="bi bi-geo-alt"></i></span>
+                <p class="mb-0 ms-1 choose-city">شهر و استان خود را انتخاب کنید</p>
+            </div>
+            <span><i class="bi bi-chevron-left"></i></span>
+        </div>
     </header>
-    
+
 
 
     <script src="./js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
