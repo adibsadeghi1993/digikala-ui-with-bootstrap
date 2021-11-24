@@ -26,6 +26,7 @@ font-size: 0.75rem;
     padding-right: 35px;
     background-color: #f0f0f1;
     height: 32px;
+    width: 100%;
 }
 .serach{
     top: 9px;
@@ -36,4 +37,25 @@ font-size: 0.75rem;
 }
 .choose-city{
     font-size: 0.7rem; 
+}
+.sgin-in-md{
+    font-size: 00.7rem;
+}
+
+.section_one,.section_tow{
+    border-bottom: 1px solid rgba(0, 0, 0,0.25);
+}
+
+
+
+@media(min-width:768px){
+    .input{
+        width: 60%;
+    }
+    .section_one,.section_tow{
+        border-bottom: none;
+    }
+    .logo{
+        width: 100px;
+    }
 }
