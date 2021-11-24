@@ -13,7 +13,7 @@
 <body>
 
     <header class="position-sticky top-0">
-        <section class="d-md-flex bg-white">
+        <section class="d-md-flex bg-white position-relative main-section">
             <div class="d-flex justify-content-between py-2 mx-2  section_one">
                 <button class="border-0 bg-transparent d-md-none" type="button" data-bs-toggle="offcanvas"
                     data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
@@ -56,7 +56,7 @@
             </div>
         </section>
 
-        <div class="d-flex p-2 border-bottom bg-white">
+        <div class="d-flex p-2 border-bottom bg-white sub_header">
 
             <nav class="d-none d-md-block flex-grow-1 ">
               <ul class="d-md-flex nav">
@@ -78,6 +78,47 @@
             <span class="d-md-none flex-grow-1  d-flex justify-content-end"><i class="bi bi-chevron-left"></i></span>
         </div>
     </header>
+
+    <main>
+        <h1>
+            In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available.
+            In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available.
+            In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available.
+            In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available.
+            In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available.
+            In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available.
+            In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available.
+            In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available.
+            In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available.
+            In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available.
+            In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available.
+            In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available.
+        </h1>
+    </main>
+
+
+    <script>
+        let scrollPos = 0;
+  const nav = document.querySelector('.sub_header');
+  
+  function checkPosition() {
+     let windowY = window.scrollY;
+     console.log(windowY)
+     if (windowY < scrollPos) {
+        // Scrolling UP
+        nav.classList.add('is-visible');
+        nav.classList.remove('is-hidden');
+     } else {
+        // Scrolling DOWN
+        nav.classList.add('is-hidden');
+        nav.classList.remove('is-visible');
+     }
+     scrollPos = windowY;
+     console.log(scrollPos)
+  }
+  
+  window.addEventListener('scroll', checkPosition);
+         </script>
 
 
 

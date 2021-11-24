@@ -57,6 +57,24 @@ ul li:first-child a{
     padding-right: 0!important;
 }
 
+.main-section{
+    z-index: 2;
+}
+
+.is-hidden{
+    position: fixed;
+    z-index: -2;
+    width: 100%;
+    transform: translateY(-100px);
+}
+.is-visible{
+    position: fixed;
+    transform: translateY(0);
+    top: 50px;
+    transition: 0.3s;
+    width: 100%;
+}
+
 
 @media(min-width:768px){
     .input{
