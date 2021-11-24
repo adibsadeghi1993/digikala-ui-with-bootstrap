@@ -6,18 +6,30 @@
     <title>Document</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.1/font/bootstrap-icons.css">
     <link rel="stylesheet" href="./css/bootstrap.rtl.min.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./srtyles.css">
 </head>
 <body>
 
     <header>
-        <section>
-            <div>
-                <button><i class="bi bi-list"></i></button>
-                <img src="./images/digicala.svg"/>
+        <section class="d-flex flex-column flex-md-row">
+            <div class="d-flex  justify-content-between w-100 mx-2 py-2 border-bottom">
+                <button class="bg-transparent border-0"" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+                    <i class="bi bi-list"></i>
+                  </button>
+                <img src="./images/digicala.svg" class="logo"/>
                 <span><i class="bi bi-question-square"></i></span>
             </div>
             <div></div>
+
+            <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+                <div class="offcanvas-header">
+                  <h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
+                  <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                  body
+                </div>
+              </div>
         </section>
         <div></div>
     </header>

@@ -1,0 +1,21 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "ykan";
+    src: url("./fonts/ykan/IRANYekanMedium.ttf");
+}
+
+body{
+    font-family: "ykan";
+}
+.logo{
+    width: 70px;
+}
+
+.offcanvas-start{
+    width: 250px;
+}
