@@ -198,32 +198,58 @@
     </section>
 
 
-    <div class="swiper my-3">
+  <section class="my-3 px-2 py-4 bg-danger d-flex">
+      <div class="pishnahad_image"><img src="./images/pishnahad.png" class="img-fluid"></div>
+      <div class="swiper">
         <div class="swiper-wrapper">
-          <div class="swiper-slide">
-            <div class="card" style="width: 18rem;">
-               <div> <img src="" class="card-img-top img-fluid" alt="..."></div>
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
-                </div>
-              </div>
-          </div>
-          <div class="swiper-slide"></div>
-          <div class="swiper-slide"></div>
-          <div class="swiper-slide"></div>
-          <div class="swiper-slide"></div>
-          <div class="swiper-slide"></div>
-          <div class="swiper-slide"></div>
-          <div class="swiper-slide"></div>
-          <div class="swiper-slide"></div>
+            <div class="swiper-slide" style="max-width: 253px;">
+                <div class="card" style="width: 18rem;">
+                  <div>  <img src="./images/shoe.jpg" class="card-img-top" alt="..."></div>
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="swiper-slide" style="max-width: 253px;">
+                <div class="card" style="width: 18rem;">
+                  <div>  <img src="./images/shoe.jpg" class="card-img-top" alt="..."></div>
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="swiper-slide" style="max-width: 253px;">
+                <div class="card" style="width: 18rem;">
+                  <div>  <img src="./images/shoe.jpg" class="card-img-top" alt="..."></div>
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="swiper-slide" style="max-width: 253px;">
+                <div class="card" style="width: 18rem;">
+                  <div>  <img src="./images/shoe.jpg" class="card-img-top" alt="..."></div>
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+            </div>
+        
         </div>
         <!-- <div class="swiper-scrollbar"></div> -->
         <div class="swiper-button-next"></div>
         <div class="swiper-button-prev"></div>
         <!-- <div class="swiper-pagination"></div> -->
       </div>
+  </section>
 
     </main>
 
@@ -253,15 +279,14 @@
 
 
 <script type="module">
-    // import Swiper from 'swiper/swiper-bundle.esm.js';
-    // import 'swiper/swiper-bundle.css';
+   
     var swiper = new Swiper('.swiper', {
-      slidesPerView: 1,
+      slidesPerView: 2,
       centeredSlides: false,
-      slidesPerGroupSkip: 1,
+      slidesPerGroupSkip: 4,
       grabCursor: true,
       keyboard: { enabled: true },
-      breakpoints: { 769: { slidesPerView: 2, slidesPerGroup: 2 } },
+      breakpoints: { 769: { slidesPerView: 3, slidesPerGroup: 3 } },
       scrollbar: { el: '.swiper-scrollbar' },
       navigation: { nextEl: '.swiper-button-next', prevEl: '.swiper-button-prev' },
       pagination: { el: '.swiper-pagination', clickable: true }
