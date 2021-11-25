@@ -83,11 +83,11 @@ font-size: 0.75rem;
 }
 
 .swiper-slide{
-    width: 220px !important;
+    width: 210px !important;
 }
 .swiper-wrapper .swiper-slide:first-child {
     margin-right: 0!important;
-    width: 110px !important;
+    width: 130px !important;
 }
 
 .swiper-button-next{
@@ -117,6 +117,10 @@ border-bottom-right-radius: 5px;
     left: 15px;
     font-size: 30px;
     color: black;
+}
+
+.progress-bar{
+    background-color: red !important;
 }
 
 
@@ -177,7 +181,9 @@ border-bottom-right-radius: 5px;
     width: 100%;
 }
 
-
+.swiper{
+    margin-right: 15px;
+}
 
 }
 
