@@ -74,16 +74,20 @@ font-size: 0.75rem;
 
 .pishnahad_image {
     max-width: 250px;
-    width: 175px;
+    width:100%;
 }
 
 .product-image img{
     max-width: 175px;
-    width: 65%;
+    width: 50%;
 }
 
 .swiper-slide{
     width: 220px !important;
+}
+.swiper-wrapper .swiper-slide:first-child {
+    margin-right: 0!important;
+    width: 110px !important;
 }
 
 .swiper-button-next{
