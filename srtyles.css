@@ -135,6 +135,11 @@ font-size: 0.75rem;
         padding: 0 0.5rem !important;
         color: black !important;
     }
+        
+.pishnahad_image {
+    max-width:250 px;
+  
+}
 }
 
 

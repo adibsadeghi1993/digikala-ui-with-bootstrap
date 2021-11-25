@@ -199,8 +199,8 @@
 
 
   <section class="my-3 px-2 py-4 bg-danger d-flex">
-      <div class="pishnahad_image mx-5 d-none d-md-block"><img src="./images/pishnahad.png" class="img-fluid"></div>
-      <div class="swiper">
+      <div style="flex: 21%;" class="pishnahad_image px-4 d-none d-md-block"><img src="./images/pishnahad.png" class="img-fluid"></div>
+      <div class="swiper px-2" style="flex: 79%; margin-right: 15px;">
         <div class="swiper-wrapper">
             <div class="swiper-slide d-block d-md-none">
                 <div class="pishnahad_image mx-auto"><img src="./images/pishnahad.png" class="img-fluid"></div>
@@ -334,7 +334,7 @@
         el: '.swiper-pagination',
         clickable: true,
       },
-      breakpoints: {  550: { slidesPerView: 3, slidesPerGroup: 3},992: { slidesPerView: 3, slidesPerGroup: 3,spaceBetween:3},1200: { slidesPerView: 4, slidesPerGroup: 4,spaceBetween:10 } },
+      breakpoints: { 992: { slidesPerView: 3, slidesPerGroup: 3,spaceBetween:10},1200: { slidesPerView: 4, slidesPerGroup: 4,spaceBetween:10 } },
       navigation: {
         nextEl: '.swiper-button-next',
         prevEl: '.swiper-button-prev',
