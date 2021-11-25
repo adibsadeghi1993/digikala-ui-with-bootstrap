@@ -72,8 +72,14 @@ font-size: 0.75rem;
     font-size: 0.8rem;
 }
 
-.pishnahad_image{
-    max-width: 253px;
+.pishnahad_image {
+    max-width: 250px;
+    width: 175px;
+}
+
+.product-image img{
+    max-width: 175px;
+    width: 175px;
 }
 
 
@@ -116,6 +122,11 @@ font-size: 0.75rem;
     .serach{
         top: 12px;
     }
+    
+.pishnahad_image {
+    max-width: 260px;
+    width: 260px;
+}
 }
 
 @media(min-width:1200px){
