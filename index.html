@@ -265,6 +265,26 @@
                     </div>
                   </div>
             </div>
+            <div class="swiper-slide" style="max-width: 253px;">
+                <div class="card">
+                  <div class="product-image d-flex justify-content-center ">  <img src="./images/shoe.jpg" class="card-img-top" alt="..."></div>
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="swiper-slide" style="max-width: 253px;">
+                <div class="card">
+                  <div class="product-image d-flex justify-content-center ">  <img src="./images/shoe.jpg" class="card-img-top" alt="..."></div>
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+            </div>
         
         </div>
         <!-- <div class="swiper-scrollbar"></div> -->
@@ -302,18 +322,23 @@
 
 
 <script type="module">
-   
+    // import Swiper from 'swiper/swiper-bundle.esm.js';
+    // import 'swiper/swiper-bundle.css';
     var swiper = new Swiper('.swiper', {
       slidesPerView: 2,
-      centeredSlides: false,
-      spaceBetween:10,
-      slidesPerGroupSkip: 4,
-      grabCursor: true,
-      keyboard: { enabled: true },
-      breakpoints: { 769: { slidesPerView: 4, slidesPerGroup: 4 } },
-      scrollbar: { el: '.swiper-scrollbar' },
-      navigation: { nextEl: '.swiper-button-next', prevEl: '.swiper-button-prev' },
-      pagination: { el: '.swiper-pagination', clickable: true }
+      spaceBetween: 10,
+      slidesPerGroup: 1,
+      loop:false,
+      loopFillGroupWithBlank:false,
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+      breakpoints: {  550: { slidesPerView: 3, slidesPerGroup: 3},992: { slidesPerView: 3, slidesPerGroup: 3,spaceBetween:3},1200: { slidesPerView: 4, slidesPerGroup: 4,spaceBetween:10 } },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
     });
   </script>
 
