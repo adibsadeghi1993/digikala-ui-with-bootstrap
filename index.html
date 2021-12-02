@@ -224,10 +224,10 @@
 
 
    <section class="bg-danger px-2 py-4 mt-3 d-flex">
-     <div class="pishnahad_container">
+     <div class="pishnahad_container" style="flex: 18%;">
      <img src="./images/pishnahad.png"/>
      </div>
-    <div class="swiper">
+    <div class="swiper" style="flex:78%">
       <div class="swiper-wrapper">
         <div class="swiper-slide">
           <div class="card">
@@ -356,9 +356,10 @@
     slidesPerView: 1,
     centeredSlides: false,
     slidesPerGroupSkip: 1,
+     spaceBetween:10,
     grabCursor: true,
     keyboard: { enabled: true },
-    breakpoints: { 769: { slidesPerView: 1, slidesPerGroup: 1 } },
+    breakpoints: { 769: { slidesPerView: 4, slidesPerGroup: 4, } },
     scrollbar: { el: '.swiper-scrollbar' },
     navigation: { nextEl: '.swiper-button-next', prevEl: '.swiper-button-prev' },
     pagination: { el: '.swiper-pagination', clickable: true }

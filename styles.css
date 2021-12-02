@@ -107,6 +107,7 @@ input::placeholder {
   .serach {
     top: 12px;
   }
+
 }
 
 @media (min-width: 1200px) {
@@ -114,5 +115,22 @@ input::placeholder {
     font-size: 0.78rem;
     padding: 0 0.5rem !important;
     color: black !important;
+  }
+  .pishnahad_container{
+      width: 253px;
+      margin-right: 15px;
+  }
+  .pishnahad_container img{
+      width: 100%;
+  }
+  .swiper-slide{
+      width: 253px !important;
+  }
+
+  .swiper{
+      margin-right: 15px;
+  }
+  .swiper .swiper-slide:first-child{
+      margin-right: 0!important;
   }
 }
