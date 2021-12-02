@@ -92,7 +92,7 @@ input::placeholder {
 
 .swiper-button-next{
     top: 37%;
-    left: 0%;
+    left: 0% !important;
     width: 50px;
     height: 90px;
   
@@ -107,7 +107,7 @@ input::placeholder {
 }
 .swiper-button-prev{
     top: 37%;
-    left: 0%;
+    right: 0% !important;
     width: 50px;
     height: 90px;
 }
@@ -121,7 +121,9 @@ input::placeholder {
 }
 
 
-
+.progress-bar{
+    background-color: red !important;
+}
 @media (min-width: 768px) {
   .input {
     width: 60%;
@@ -177,7 +179,7 @@ input::placeholder {
   }
 
   .pishnahad_container{
-      margin-left: 15px;
+      margin: 0 20px;
   }
  
   .pishnahd{
@@ -191,9 +193,7 @@ input::placeholder {
       width: 253px !important;
   }
 
-  .swiper{
-      margin-right: 15px;
-  }
+  
   .swiper .swiper-slide:first-child{
       margin-right: 0!important;
   }
