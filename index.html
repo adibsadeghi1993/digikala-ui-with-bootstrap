@@ -224,14 +224,17 @@
 
 
    <section class="bg-danger px-2 py-4 mt-3 d-flex">
-     <div class="pishnahad_container" style="flex: 18%;">
+     <div class="pishnahad_container d-none d-lg-block" style="flex: 20%;">
      <img src="./images/pishnahad.png"/>
      </div>
-    <div class="swiper" style="flex:78%">
+    <div class="swiper position-relative" >
       <div class="swiper-wrapper">
+        <div class="swiper-slide d-lg-none pishnahad_image">
+          <img src="./images/pishnahad.png"/>
+        </div>
         <div class="swiper-slide">
           <div class="card">
-           <div class="product_container"> <img src="./images/shoe.jpg" class="card-img-top" alt="..."></div>
+           <div class="product_container w-100 d-flex justify-content-center "> <img src="./images/shoe.jpg" class="card-img-top" alt="..."></div>
             <div class="card-body">
               <h5 class="card-title">Card title</h5>
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -241,7 +244,7 @@
         </div>
         <div class="swiper-slide">
           <div class="card">
-           <div class="product_container"> <img src="./images/shoe.jpg" class="card-img-top" alt="..."></div>
+           <div class="product_container w-100 d-flex justify-content-center"> <img src="./images/shoe.jpg" class="card-img-top" alt="..."></div>
             <div class="card-body">
               <h5 class="card-title">Card title</h5>
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -251,7 +254,7 @@
         </div>
         <div class="swiper-slide">
           <div class="card">
-           <div class="product_container"> <img src="./images/shoe.jpg" class="card-img-top" alt="..."></div>
+           <div class="product_container w-100 d-flex justify-content-center"> <img src="./images/shoe.jpg" class="card-img-top" alt="..."></div>
             <div class="card-body">
               <h5 class="card-title">Card title</h5>
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -261,7 +264,7 @@
         </div>
         <div class="swiper-slide">
           <div class="card">
-           <div class="product_container"> <img src="./images/shoe.jpg" class="card-img-top" alt="..."></div>
+           <div class="product_container w-100 d-flex justify-content-center"> <img src="./images/shoe.jpg" class="card-img-top" alt="..."></div>
             <div class="card-body">
               <h5 class="card-title">Card title</h5>
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -271,7 +274,7 @@
         </div>
         <div class="swiper-slide">
           <div class="card">
-           <div class="product_container"> <img src="./images/shoe.jpg" class="card-img-top" alt="..."></div>
+           <div class="product_container w-100 d-flex justify-content-center"> <img src="./images/shoe.jpg" class="card-img-top" alt="..."></div>
             <div class="card-body">
               <h5 class="card-title">Card title</h5>
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -281,7 +284,7 @@
         </div>
         <div class="swiper-slide">
           <div class="card">
-           <div class="product_container"> <img src="./images/shoe.jpg" class="card-img-top" alt="..."></div>
+           <div class="product_container w-100 d-flex justify-content-center"> <img src="./images/shoe.jpg" class="card-img-top" alt="..."></div>
             <div class="card-body">
               <h5 class="card-title">Card title</h5>
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -291,7 +294,7 @@
         </div>
         <div class="swiper-slide">
           <div class="card">
-           <div class="product_container"> <img src="./images/shoe.jpg" class="card-img-top" alt="..."></div>
+           <div class="product_container w-100 d-flex justify-content-center"> <img src="./images/shoe.jpg" class="card-img-top" alt="..."></div>
             <div class="card-body">
               <h5 class="card-title">Card title</h5>
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -301,7 +304,7 @@
         </div>
         <div class="swiper-slide">
           <div class="card">
-           <div class="product_container"> <img src="./images/shoe.jpg" class="card-img-top" alt="..."></div>
+           <div class="product_container w-100 d-flex justify-content-center"> <img src="./images/shoe.jpg" class="card-img-top" alt="..."></div>
             <div class="card-body">
               <h5 class="card-title">Card title</h5>
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -313,8 +316,8 @@
     
       </div>
       <div class="swiper-scrollbar d-none"></div>
-      <div class="swiper-button-next"></div>
-      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next rounded-start shadow d-none d-lg-inline position-absolute"></div>
+      <div class="swiper-button-prev rounded-end shadow d-none d-lg-inline position-absolute"></div>
     
     </div>
    </section>
