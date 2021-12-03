@@ -170,6 +170,7 @@ input::placeholder {
   }
   .product_container img{
       width: 75%;
+      max-width: 170px !important;
   }
   .swiper{
       flex: 80%;
