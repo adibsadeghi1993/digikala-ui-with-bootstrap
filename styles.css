@@ -197,4 +197,7 @@ input::placeholder {
   .swiper .swiper-slide:first-child{
       margin-right: 0!important;
   }
+  .discount{
+      font-size: 1rem;
+  }
 }
