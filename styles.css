@@ -86,6 +86,12 @@ input::placeholder {
     flex-shrink: 0;
 }
 
+.product_container{
+  width: 203px !important;
+}
+
+
+
 .product_container img{
     width:70%;
 }
@@ -169,6 +175,8 @@ input::placeholder {
       flex: 80%;
   }
 
+  
+
 }
 
 @media (min-width: 1200px) {
@@ -193,7 +201,9 @@ input::placeholder {
       width: 253px !important;
   }
 
-  
+  .product_container{
+    width: 253px !important;
+  } 
   .swiper .swiper-slide:first-child{
       margin-right: 0!important;
   }
