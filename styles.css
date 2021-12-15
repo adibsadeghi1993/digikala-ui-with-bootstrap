@@ -92,6 +92,8 @@ input::placeholder {
 
 
 
+
+
 .product_container img{
     width:70%;
 }
@@ -176,10 +178,34 @@ input::placeholder {
   .swiper{
       flex: 80%;
   }
+  .products_section{
+    width: 100%;
+  }
 
   
 
 }
+
+
+@media (min-width: 1000px) {
+  .pishnahd{
+    max-width: 253px;
+    padding: 0 30px;
+}
+.pishnahad_container{
+  margin: 0 20px;
+}
+
+.pishnahd{
+  max-width: 253px;
+  padding: 0 30px;
+}
+.pishnahd img{
+  width: 100%;
+}
+
+}
+
 
 @media (min-width: 1200px) {
   .nav-item a {
