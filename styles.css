@@ -134,6 +134,11 @@ input::placeholder {
 .progress-bar{
     background-color: red !important;
 }
+
+.section-tow-products {
+  background: linear-gradient(
+301deg,#6bb927 66%,#9dc44d)
+}
 @media (min-width: 768px) {
   .input {
     width: 60%;
